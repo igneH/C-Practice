@@ -6,7 +6,7 @@
     char name[25];
     char password[12];
     int id;
-} User;
+} User_t;
 
 
 int main(){
@@ -14,8 +14,8 @@ int main(){
 
     //user user1 = "ruby catgirl uwu";
 
-    User user1 = {"Hengi", "passwort", 1234567890};
-    User user2 = {"Ruby", "femboy", 987654321};
+    User_t user1 = {"Hengi", "passwort", 1234567890};
+    User_t user2 = {"Ruby", "femboy", 987654321};
 
     printf("User 1 name: %s\n", user1.name);
     printf("User 1 password: %s\n", user1.password);
